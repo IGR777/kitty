@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="41.0dp"
+        android:id="@+id/tableRow1">
+        <TextView
+            android:text="Ваш возраст :"
+            android:id="@+id/textView1"
+            android:gravity="center"
+            android:layout_height="31.5dp"
+            android:layout_width="189.5dp" />
+    </TableRow>
+    <EditText
+        android:id="@+id/MadamAge"
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="сколько лет ?"
+        android:inputType="number"
+        android:numeric="decimal"
+        android:gravity="left" />
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="38.0dp"
+        android:id="@+id/MadamAgeSeekBar"
+        android:max="100"
+        android:progress="35" />
+    <TableRow
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="41.0dp">
+        <TextView
+            android:text="рекомендуемое количество пушистиков :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textView2"
+            android:layout_width="383.5dp"
+            android:gravity="center"
+            android:layout_height="30.0dp" />
+    </TableRow>
+    <EditText
+        android:layout_width="191.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/NumberCats"
+        android:enabled="false"
+        android:maxLines="1"
+        android:hint="количество кошек"
+        android:inputType="number"
+        android:numeric="decimal"
+        android:gravity="left" />
+</LinearLayout>
