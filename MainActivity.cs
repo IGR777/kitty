@@ -14,28 +14,21 @@ namespace kitty
     {
         TipInfo info = new TipInfo()
         {
-            TipPercent = 15,
+            MadamAge = 40,
         };
 
-        TextView TipPercent;
-        TextView Total;
-        TextView TipValue;
-
-        public Activity1()
-        {
-            info.TipValueChanged += (sender, e) => {
-                TipValue.Text = info.TipValue.ToString();
-                Total.Text = (info.TipValue + info.Total).ToString();
-            };
-        }
+       
 
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
-
             // Set our view from the "main" layout resource
-            SetContentView (Resource.Layout.Main);
+            SetContentView(Resource.Layout.Main);
+
+            EditText MadamAge = FindViewById<EditText>(Resource.Id.MadamAge);
+            EditText NumberCats = FindViewById<EditText>(Resource.Id.NumberCats);
         }
+
     }
 }
 

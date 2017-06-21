@@ -3,23 +3,18 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="41.0dp"
-        android:id="@+id/tableRow1">
-        <TextView
-            android:text="Ваш возраст :"
-            android:id="@+id/textView1"
-            android:gravity="center"
-            android:layout_height="31.5dp"
-            android:layout_width="189.5dp" />
-    </TableRow>
+    <TextView
+        android:text="Ваш возраст :"
+        android:id="@+id/textView1"
+        android:gravity="center"
+        android:layout_width="186.5dp"
+        android:layout_height="29.5dp" />
     <EditText
         android:id="@+id/MadamAge"
         android:maxLines="1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="сколько лет ?"
+        android:text="Сколько лет ?"
         android:inputType="number"
         android:numeric="decimal"
         android:gravity="left" />
