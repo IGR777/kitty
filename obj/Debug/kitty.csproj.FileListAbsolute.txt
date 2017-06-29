@@ -1,0 +1,15 @@
+C:\Users\den4i\OneDrive\Documents\Visual Studio 2017\Projects\kitty\kitty\bin\Debug\kitty.dll
+C:\Users\den4i\OneDrive\Documents\Visual Studio 2017\Projects\kitty\kitty\bin\Debug\kitty.pdb
+C:\Users\den4i\OneDrive\Documents\Visual Studio 2017\Projects\kitty\kitty\bin\Debug\kitty.kitty.apk
+C:\Users\den4i\OneDrive\Documents\Visual Studio 2017\Projects\kitty\kitty\bin\Debug\kitty.kitty-Signed.apk
+C:\Users\den4i\OneDrive\Documents\Visual Studio 2017\Projects\kitty\kitty\obj\Debug\kitty.dll
+C:\Users\den4i\OneDrive\Documents\Visual Studio 2017\Projects\kitty\kitty\obj\Debug\kitty.pdb
+C:\Users\den4i\OneDrive\Documents\Visual Studio 2017\Projects\kitty\kitty\obj\Debug\android\bin\kitty.kitty.apk
+C:\Users\den4i\OneDrive\Documents\Visual Studio 2017\Projects\kitty\kitty\obj\Debug\res\layout\main.xml
+C:\Users\den4i\OneDrive\Documents\Visual Studio 2017\Projects\kitty\kitty\obj\Debug\res\values\strings.xml
+C:\Users\den4i\OneDrive\Documents\Visual Studio 2017\Projects\kitty\kitty\obj\Debug\res\drawable\icon.png
+C:\Users\den4i\OneDrive\Documents\Visual Studio 2017\Projects\kitty\kitty\obj\Debug\R.cs.flag
+C:\Users\den4i\OneDrive\Documents\Visual Studio 2017\Projects\kitty\kitty\obj\Debug\uploadflags.txt
+C:\Users\den4i\OneDrive\Documents\Visual Studio 2017\Projects\kitty\kitty\obj\Debug\kitty.csprojResolveAssemblyReference.cache
+C:\Users\den4i\OneDrive\Documents\Visual Studio 2017\Projects\kitty\kitty\bin\Debug\kitty.dll.mdb
+C:\Users\den4i\OneDrive\Documents\Visual Studio 2017\Projects\kitty\kitty\obj\Debug\android\assets\kitty.dll.mdb

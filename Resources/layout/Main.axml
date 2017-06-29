@@ -4,26 +4,44 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <TextView
+        android:text="Калькулятор подсчета котиков для одиноких дам"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:background="@android:color/holo_blue_bright"
+        android:textColor="@android:color/holo_red_light" />
+    <TextView
         android:text="Ваш возраст :"
         android:id="@+id/textView1"
         android:gravity="center"
         android:layout_width="186.5dp"
         android:layout_height="29.5dp" />
     <EditText
-        android:id="@+id/MadamAge"
+        android:id="@+id/madamAge"
         android:maxLines="1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Сколько лет ?"
         android:inputType="number"
         android:numeric="decimal"
-        android:gravity="left" />
+        android:gravity="left"
+        android:hint="Сколько лет?" />
     <SeekBar
         android:layout_width="match_parent"
         android:layout_height="38.0dp"
-        android:id="@+id/MadamAgeSeekBar"
-        android:max="100"
+        android:id="@+id/madamAgeSeekBar"
+        android:max="150"
         android:progress="35" />
+    <Button
+        android:text="подсчет котят"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/calculateButton"
+        android:background="@android:color/holo_red_dark"
+        android:textColor="@android:color/background_dark"
+        android:textSize="25sp"
+        android:textStyle="italic" />
     <TableRow
         android:minWidth="25px"
         android:minHeight="25px"
@@ -40,11 +58,11 @@
     <EditText
         android:layout_width="191.0dp"
         android:layout_height="wrap_content"
-        android:id="@+id/NumberCats"
+        android:id="@+id/numberCats"
         android:enabled="false"
         android:maxLines="1"
-        android:hint="количество кошек"
         android:inputType="number"
         android:numeric="decimal"
-        android:gravity="left" />
+        android:gravity="left"
+        android:text="0" />
 </LinearLayout>
