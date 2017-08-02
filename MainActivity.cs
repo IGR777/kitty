@@ -46,9 +46,9 @@ namespace kitty
         {
             base.OnStop();
 
-            calculateButton.Click += CalculateButton_Click;
+            calculateButton.Click -= CalculateButton_Click;
 
-            madamAgeSeekBar.ProgressChanged += madamAgeSeekBar_ProgressChanged;
+            madamAgeSeekBar.ProgressChanged -= madamAgeSeekBar_ProgressChanged;
 
         }
 
